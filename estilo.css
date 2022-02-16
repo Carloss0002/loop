@@ -11,7 +11,12 @@ body{
     color: hsl(0, 0%, 41%);
     overflow-x: hidden;
 }
-
+.none{
+    display: none;
+}
+ul{
+    list-style: none;
+}
 /*header*/
 header{
     background: url(images/desktop/image-hero.jpg);
@@ -41,6 +46,7 @@ nav img{
     margin-right: 400px;
 }
 nav ul{
+    display: flex;
     margin-top: 50px;
     text-align: end;
 }
@@ -186,6 +192,9 @@ footer img{
     padding-top: 10px;
 }
 footer ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
     margin-left: 100px;
 }
 footer a{
